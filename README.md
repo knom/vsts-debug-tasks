@@ -16,12 +16,6 @@ Functionality includes...
 
 **In case of errors with the processes/pipelines, inspecting these values can be very helpful for solving issues!**
 
-## Supported Platforms ##
-
-* Visual Studio Team Services
-
-<!-- * Team Foundation Server 2015 Update 3 and higher (How to install extensions in TFS) -->
-
 ## Quick steps to get started ##
 
 Add the *Inspect Environment Variables* and/or *Inspect File Structure* tasks to your build.
@@ -35,3 +29,6 @@ Once the build is done, you will find attached build / release results for files
 ![screen2](/static/images/Screen2.png)
 
 ![screen3](/static/images/Screen3.png)
+
+## Any functionality missing? ##
+Please suggest a new feature on [GitHub](https://github.com/knom/vsts-debug-tasks/issues)!
