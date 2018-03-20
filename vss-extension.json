@@ -1,8 +1,8 @@
 {
   "manifestVersion": 1,
   "id": "vsts-debughelper-tasks",
-  "version": "0.1.7",
-  "name": "VSTS Build/RM Inspection/Debug Tasks",
+  "version": "0.1.10",
+  "name": "Build/Release Inspection & Debug Tasks",
   "scopes": [],
   "description": "A set of build/release tasks to help debug build/release pipelines by inspecting environment variables or file structure on the agent.",
   "publisher": "knom",
@@ -33,8 +33,14 @@
     "Build and release"
   ],
   "screenshots": [{
-    "path": "static/images/screen1.png"
-  }],
+      "path": "static/images/screen1.png"
+    },
+    {
+      "path": "static/images/screen2.png"
+    }, {
+      "path": "static/images/screen3.png"
+    }
+  ],
   "content": {
     "license": {
       "path": "license.md"

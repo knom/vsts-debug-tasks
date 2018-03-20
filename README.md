@@ -19,12 +19,12 @@ In case of errors with the processes/pipelines, inspecting these values can be v
 
 Add the *Inspect Environment Variables* and/or *Inspect File Structure* tasks to your build.
 
-This should preferrably happen at the end to get the end-results of files and environment variables.
+This should preferrably happen at the end of your build to get the end-results of files and environment variables.
 
-![screen1](/static/images/Screen1.png)
+![screen1](static/images/Screen1.png)
 
 Once the build is done, you will find attached build / release results for files or environment variables present on the build agents at time of execution.
 
-![screen1](/static/images/Screen2.png)
+![screen1](static/images/Screen2.png)
 
-![screen1](/static/images/Screen3.png)
+![screen1](static/images/Screen3.png)
