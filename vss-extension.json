@@ -6,6 +6,7 @@
   "scopes": [],
   "description": "A set of build/release tasks to help debug build/release pipelines by inspecting environment variables or file structure on the agent.",
   "publisher": "knom",
+  "public": true,
   "galleryFlags": [
     "Preview"
   ],
