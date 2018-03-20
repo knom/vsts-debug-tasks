@@ -21,6 +21,7 @@ Functionality includes...
 Add the *Inspect Environment Variables* and/or *Inspect File Structure* tasks to your build.
 
 This should preferrably happen at the end of your build to get the end-results of files and environment variables.
+Or you can also add multiple inspection tasks and track diffs of the variables or files.
 
 ![screen1](https://raw.githubusercontent.com/knom/vsts-debug-tasks/master/static/images/Screen1.png)
 
