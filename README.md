@@ -1,3 +1,4 @@
+![logo](static/images/logo.png) 
 # VSTS Build/RM Inspection Tasks ![build badge](https://knom-msft.visualstudio.com/_apis/public/build/definitions/9d8fcb7c-6c11-4014-9dc2-7966c94af2b2/11/badge) #
 
 A set of build/release tasks to help debug issues with your build/release processes by inspecting the agent.
@@ -25,6 +26,6 @@ This should preferrably happen at the end of your build to get the end-results o
 
 Once the build is done, you will find attached build / release results for files or environment variables present on the build agents at time of execution.
 
-![screen1](static/images/Screen2.png)
+![screen2](static/images/Screen2.png)
 
-![screen1](static/images/Screen3.png)
+![screen3](static/images/Screen3.png)
