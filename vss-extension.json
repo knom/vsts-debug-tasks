@@ -1,0 +1,93 @@
+{
+  "manifestVersion": 1,
+  "id": "vsts-debughelper-tasks",
+  "version": "0.1.7",
+  "name": "VSTS Build/RM Inspection/Debug Tasks",
+  "scopes": [],
+  "description": "A set of build/release tasks to help debug build/release pipelines by inspecting environment variables or file structure on the agent.",
+  "publisher": "knom",
+  "galleryFlags": [
+    "Preview"
+  ],
+  "icons": {
+    "default": "static/images/logo.png"
+  },
+  "targets": [{
+    "id": "Microsoft.VisualStudio.Services"
+  }],
+  "demands": [
+    "api-version/3.0"
+  ],
+  "tags": [
+    "Debug",
+    "Error",
+    "Exceptions",
+    "Files",
+    "Directory",
+    "Directories",
+    "Build",
+    "Variables",
+    "Environment Variables"
+  ],
+  "categories": [
+    "Build and release"
+  ],
+  "screenshots": [{
+    "path": "static/images/screen1.png"
+  }],
+  "content": {
+    "license": {
+      "path": "license.md"
+    },
+    "details": {
+      "path": "overview.md"
+    }
+  },
+  "links": {
+    "getstarted": {
+      "uri": "https://github.com/knom/vsts-debug-tasks/"
+    },
+    "support": {
+      "uri": "https://github.com/knom/vsts-debug-tasks/issues"
+    },
+    "issues": {
+      "uri": "https://github.com/knom/vsts-debug-tasks/issues"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "uri": "https://github.com/knom/vsts-debug-tasks/"
+  },
+  "branding": {
+    "color": "rgb(250, 250,250)",
+    "theme": "light"
+  },
+  "files": [{
+      "path": "print-env-task"
+    },
+    {
+      "path": "print-fs-structure-task"
+    }
+  ],
+  "contributions": [{
+      "id": "print-env-task",
+      "targets": [
+        "ms.vss-distributed-task.tasks"
+      ],
+      "type": "ms.vss-distributed-task.task",
+      "properties": {
+        "name": "print-env-task"
+      }
+    },
+    {
+      "id": "print-fs-structure-task",
+      "targets": [
+        "ms.vss-distributed-task.tasks"
+      ],
+      "type": "ms.vss-distributed-task.task",
+      "properties": {
+        "name": "print-fs-structure-task"
+      }
+    }
+  ]
+}
