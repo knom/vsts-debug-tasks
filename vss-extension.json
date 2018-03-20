@@ -1,7 +1,7 @@
 {
   "manifestVersion": 1,
   "id": "vsts-debughelper-tasks",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "name": "Build/Release Inspection & Debug Tasks",
   "scopes": [],
   "description": "A set of build/release tasks to help debug build/release pipelines by inspecting environment variables or file structure on the agent.",
