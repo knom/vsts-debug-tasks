@@ -1,9 +1,15 @@
 {
     "id": "a8caceab-8551-48ad-925d-20a178904e11",
     "name": "print-fs-structure-task",
+<<<<<<< HEAD
     "friendlyName": "Inspect Build Agent File Structure",
     "description": "Logs the agent's file structure for debugging purposes.",
     "helpMarkDown": "All files on the agent's task folder with sizes and last changed date will be added as attachment to your build / release output.",
+=======
+    "friendlyName": "Log Agent File System Structure",
+    "description": "Logs the file system structure for debugging purposes.",
+    "helpMarkDown": "[More Information](https://url.to/yourmarkdown)",
+>>>>>>> 1c565f7e002c1e4c15e58eb28dce0d0ff3faba87
     "category": "Utility",
     "visibility": ["Build", "Release"],
     "author": "",
@@ -14,7 +20,11 @@
     },
     "demands": [],
     "inputs": [],
+<<<<<<< HEAD
     "instanceNameFormat": "Inspect File Structure",
+=======
+    "instanceNameFormat": "Log Agent FS",
+>>>>>>> 1c565f7e002c1e4c15e58eb28dce0d0ff3faba87
     "execution": {
         "PowerShell3": {
             "target": "$(currentDirectory)\\print-fs-structure-task.ps1",
