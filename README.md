@@ -1,4 +1,3 @@
-![logo](https://raw.githubusercontent.com/knom/vsts-debug-tasks/master/static/images/logo.png) 
 # VSTS Build/RM Inspection Tasks ![build badge](https://knom-msft.visualstudio.com/_apis/public/build/definitions/9d8fcb7c-6c11-4014-9dc2-7966c94af2b2/11/badge) #
 
 A set of build/release tasks to help debug issues with your build/release processes by inspecting the agent.
