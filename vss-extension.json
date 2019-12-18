@@ -1,23 +1,16 @@
 {
   "manifestVersion": 1,
   "id": "vsts-debughelper-tasks",
-  "version": "0.1.11",
   "name": "Build/Release Inspection & Debug Tasks",
-  "scopes": [],
-  "description": "A set of build/release tasks to help debug build/release pipelines by inspecting environment variables or file structure on the agent.",
+  "version": "1.0.5",
   "publisher": "knom",
-  "public": true,
-  "galleryFlags": [
-    "Preview"
-  ],
-  "icons": {
-    "default": "static/images/logo.png"
-  },
   "targets": [{
     "id": "Microsoft.VisualStudio.Services"
   }],
-  "demands": [
-    "api-version/3.0"
+  "description": "A set of build/release tasks to help debug build/release pipelines by inspecting environment variables or file structure on the agent.",
+  "public": true,
+  "categories": [
+    "Azure Pipelines"
   ],
   "tags": [
     "Debug",
@@ -30,8 +23,15 @@
     "Variables",
     "Environment Variables"
   ],
-  "categories": [
-    "Build and release"
+  "icons": {
+    "default": "static/images/logo.png"
+  },
+  "files": [{
+      "path": "print-env-task"
+    },
+    {
+      "path": "print-fs-structure-task"
+    }
   ],
   "screenshots": [{
       "path": "static/images/screen1.png"
@@ -43,11 +43,10 @@
     }
   ],
   "content": {
-    "license": {
-      "path": "license.md"
-    },
     "details": {
-      "path": "readme.md"
+      "path": "README.md"
+    },"license": {
+      "path": "LICENSE.md"
     }
   },
   "links": {
@@ -60,6 +59,9 @@
     "issues": {
       "uri": "https://github.com/knom/vsts-debug-tasks/issues"
     }
+    "privacypolicy": {
+      "uri": "https://github.com/knom/vsts-debug-tasks/blob/master/PRIVACY.md"
+    }
   },
   "repository": {
     "type": "git",
@@ -69,13 +71,6 @@
     "color": "rgb(250, 250,250)",
     "theme": "light"
   },
-  "files": [{
-      "path": "print-env-task"
-    },
-    {
-      "path": "print-fs-structure-task"
-    }
-  ],
   "contributions": [{
       "id": "print-env-task",
       "targets": [

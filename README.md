@@ -1,6 +1,12 @@
-# VSTS Build/RM Inspection Tasks ![build badge](https://knom-msft.visualstudio.com/_apis/public/build/definitions/9d8fcb7c-6c11-4014-9dc2-7966c94af2b2/11/badge) #
+# VSTS Build/RM Inspection Tasks  [![Version](https://img.shields.io/vscode-marketplace/v/knom.vsts-debughelper-tasks.svg?label=VS%20Marketplace&logo=visual-studio-code&logoColor=white)](https://marketplace.visualstudio.com/items?itemName=knom.vsts-debughelper-tasks) [![Visual Studio Marketplace Downloads](https://img.shields.io/vscode-marketplace/d/knom.vsts-debughelper-tasks.svg?logo=visual-studio-code&logoColor=white)](https://marketplace.visualstudio.com/items?itemName=knom.vsts-debughelper-tasks) [![GitHub License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/knom/vsts-debug-tasks/blob/master/LICENSE.md) ![build badge](https://knom-msft.visualstudio.com/_apis/public/build/definitions/9d8fcb7c-6c11-4014-9dc2-7966c94af2b2/11/badge) #
 
 A set of build/release tasks to help debug issues with your build/release processes by inspecting the agent.
+
+## Supported Platforms
+
+* Azure DevOps - Pipelines
+* Team Foundation Server 2015 Update 3 and higher ([How to install extensions in TFS](https://www.visualstudio.com/en-us/docs/marketplace/get-tfs-extensions))
+* **Only Windows** - sorry, this is due to the lack of Powershell support of the underlying task FX platform :-(
 
 ## Have you been in a situation where your build is just working as it should? ##
 
